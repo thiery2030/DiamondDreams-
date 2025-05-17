@@ -13,12 +13,17 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 70,
     borderColor: "#e8c986",
     borderWidth: 5,
-    top: -20,
+    position: "absolute",
+    top: -10, //para esconder a cor da borda
   },
   imgLogo: {
     width: 350,
     height: 350,
-    marginTop: -700,
+  },
+  logoContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    position: "relative",
   },
   nome: {
     fontSize: 15,
@@ -38,9 +43,13 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 5,
   },
-
+  inputNome: {
+    flex: 1,
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    color: "#000",
+  },
   inputContainerEmail: {
     width: 300,
     height: 50,
@@ -52,9 +61,13 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 5,
   },
-
+  inputEmail: {
+    flex: 1,
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    color: "#000",
+  },
   email: {
     fontSize: 15,
     color: "#2e1504",
@@ -73,17 +86,13 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 5,
   },
-
-  inputs: {
+  inputSenha: {
     flex: 1,
     borderRadius: 5,
     paddingHorizontal: 10,
     color: "#000",
   },
-
- 
   senha: {
     fontSize: 15,
     color: "#2e1504",
@@ -98,7 +107,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#e8c986",
     justifyContent: "center",
     alignItems: "center",
-    top: 85,
   },
   textoBotaoEntrar: {
     fontSize: 20,
@@ -107,18 +115,27 @@ const styles = StyleSheet.create({
   },
   botaoCadastrese: {
     width: 300,
-    height: 45,
+    height: 450,
     borderRadius: 6,
     backgroundColor: "#411d06",
     justifyContent: "center",
     alignItems: "center",
-    top: 109,
   },
   textoBotaoCadastrese: {
     fontSize: 20,
     color: "white",
     fontWeight: 700,
   },
-
+  inputGeralContainer: {
+    alignItems: "center",
+    justifyContent: "flex-start",
+    marginTop: 60,
+  },
+  botaoContainer: {
+    position: "absolute",
+    bottom: 140,
+    alignSelf: "center",
+    alignItems: "center",
+  },
 });
 export default styles;
