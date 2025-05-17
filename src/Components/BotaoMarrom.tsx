@@ -1,4 +1,4 @@
-import styles from "../../assets/css/styles";
+import styles from "../../assets/styles";
 import { Text, TouchableOpacity, View } from "react-native";
 
 interface BotaoMarrom {

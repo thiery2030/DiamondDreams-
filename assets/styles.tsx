@@ -44,12 +44,7 @@ const styles = StyleSheet.create({
     elevation: 1,
     justifyContent: "center",
   },
-  inputNome: {
-    flex: 1,
-    borderRadius: 5,
-    paddingHorizontal: 10,
-    color: "#000",
-  },
+ 
   inputContainerEmail: {
     width: 300,
     height: 50,
@@ -62,12 +57,7 @@ const styles = StyleSheet.create({
     elevation: 1,
     justifyContent: "center",
   },
-  inputEmail: {
-    flex: 1,
-    borderRadius: 5,
-    paddingHorizontal: 10,
-    color: "#000",
-  },
+ 
   email: {
     fontSize: 15,
     color: "#2e1504",
@@ -87,7 +77,7 @@ const styles = StyleSheet.create({
     elevation: 1,
     justifyContent: "center",
   },
-  inputSenha: {
+  inputs: {
     flex: 1,
     borderRadius: 5,
     paddingHorizontal: 10,
