@@ -5,13 +5,14 @@ import { BotaoAmarelo } from "./src/Components/BotaoAmarelo";
 import { BotaoMarrom } from "./src/Components/BotaoMarrom";
 import { Inputs } from "./src/Components/Inputs";
 import { useState } from "react";
-import { useNavigation } from "@react-navigation/native";
+//import { useNavigation } from "@react-navigation/native";
 
 export default function App() {
   // const [validacao,setValidacao] = useState(0)
 
   return (
     <View style={styles.container}>
+      <View style={styles.base}>
       <View style={styles.logoContainer}>
         <Image style={styles.imgLogoFundo} source={require("./assets/img/imagem-login.png")} />
         <Image style={styles.imgLogo} source={require("./assets/img/logo-DD.png")} />
@@ -39,6 +40,7 @@ export default function App() {
         <BotaoMarrom BotaoMarrom="Cadastre-se" />
       </View>
       <StatusBar style="auto" />
+      </View>
     </View>
   );
 }

@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     elevation: 1,
     justifyContent: "center",
   },
- 
+
   inputContainerEmail: {
     width: 300,
     height: 50,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     elevation: 1,
     justifyContent: "center",
   },
- 
+
   email: {
     fontSize: 15,
     color: "#2e1504",
@@ -76,12 +76,6 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-  },
-  inputs: {
-    flex: 1,
-    borderRadius: 5,
-    paddingHorizontal: 10,
-    color: "#000",
   },
   senha: {
     fontSize: 15,
@@ -105,11 +99,12 @@ const styles = StyleSheet.create({
   },
   botaoCadastrese: {
     width: 300,
-    height: 450,
+    height: 45,
     borderRadius: 6,
     backgroundColor: "#411d06",
     justifyContent: "center",
     alignItems: "center",
+  
   },
   textoBotaoCadastrese: {
     fontSize: 20,
@@ -118,13 +113,14 @@ const styles = StyleSheet.create({
   },
   inputGeralContainer: {
     alignItems: "center",
-    justifyContent: "flex-start",
-    marginTop: 60,
+    marginTop: 55,
   },
   botaoContainer: {
-    position: "absolute",
-    bottom: 140,
-    alignSelf: "center",
+  gap: 10,
+  top: 25,
+  },
+
+  base: {
     alignItems: "center",
   },
 });
