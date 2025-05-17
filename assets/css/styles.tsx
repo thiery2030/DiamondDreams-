@@ -40,12 +40,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     top: 5,
   },
-  inputNome: {
-    flex: 1,
-    borderRadius: 5,
-    paddingHorizontal: 10,
-    color: "#000",
-  },
+
   inputContainerEmail: {
     width: 300,
     height: 50,
@@ -59,20 +54,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     top: 5,
   },
-    inputEmail: {
-        flex: 1,
-        borderRadius: 5,
-        paddingHorizontal: 10,
-        color: "#000",
-    },
-    email: {
-        fontSize: 15,
-        color: "#2e1504",
-        marginTop: 20,
-        fontWeight: 400,
-        paddingRight: 255,
-    },
-    inputContainerSenha: {
+
+  email: {
+    fontSize: 15,
+    color: "#2e1504",
+    marginTop: 20,
+    fontWeight: 400,
+    paddingRight: 255,
+  },
+  inputContainerSenha: {
     width: 300,
     height: 50,
     borderRadius: 5,
@@ -85,47 +75,50 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     top: 5,
   },
-    inputSenha: {
-        flex: 1,
-        borderRadius: 5,
-        paddingHorizontal: 10,
-        color: "#000",
-    },
-    senha: {
-        fontSize: 15,
-        color: "#2e1504",
-        marginTop: 20,
-        fontWeight: 400,
-        paddingRight: 255,
-    },
-    botaoEntrar: {
-        width: 300,
-        height: 45,
-        borderRadius: 6,
-        backgroundColor: "#e8c986",
-        justifyContent: "center",
-        alignItems: "center",
-        top: 85,
-    },
-    textoBotaoEntrar: {
-        fontSize: 20,
-        color: "white",
-        fontWeight:700,
-    },
-    botaoCadastrese: {
-        width: 300,
-        height: 45,
-        borderRadius: 6,
-        backgroundColor: "#411d06",
-        justifyContent: "center",
-        alignItems: "center",
-        top: 109,
-    },
-    textoBotaoCadastrese: {
-        fontSize: 20,
-        color: "white",
-        fontWeight:700,
-    },
-    
+
+  inputs: {
+    flex: 1,
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    color: "#000",
+  },
+
+ 
+  senha: {
+    fontSize: 15,
+    color: "#2e1504",
+    marginTop: 20,
+    fontWeight: 400,
+    paddingRight: 255,
+  },
+  botaoEntrar: {
+    width: 300,
+    height: 45,
+    borderRadius: 6,
+    backgroundColor: "#e8c986",
+    justifyContent: "center",
+    alignItems: "center",
+    top: 85,
+  },
+  textoBotaoEntrar: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: 700,
+  },
+  botaoCadastrese: {
+    width: 300,
+    height: 45,
+    borderRadius: 6,
+    backgroundColor: "#411d06",
+    justifyContent: "center",
+    alignItems: "center",
+    top: 109,
+  },
+  textoBotaoCadastrese: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: 700,
+  },
+
 });
 export default styles;

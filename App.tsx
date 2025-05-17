@@ -1,28 +1,44 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from "react-native";
-import styles from "./assets/styles";
+import styles from "./assets/css/styles";
+import { BotaoAmarelo } from "./src/Components/BotaoAmarelo";
+import { BotaoMarrom } from "./src/Components/BotaoMarrom";
+import { Inputs } from "./src/Components/Inputs";
+import { useState } from "react";
+import { useNavigation } from "@react-navigation/native";
+
+
 
 export default function App() {
+
+  // const [validacao,setValidacao] = useState(0)
+
   return (
+
     <View style={styles.container}>
+
       <Image style={styles.imgLogoFundo} source={require("./assets/img/imagem-login.png")} />
+
       <Text style={styles.nome}>Nome</Text>
       <View style={styles.inputContainerNome}>
-        <TextInput style={styles.inputNome}></TextInput>
+        <Inputs inputs=""/>
       </View>
+
       <Text style={styles.email}>Email</Text>
       <View style={styles.inputContainerEmail}>
-        <TextInput style={styles.inputEmail}></TextInput>
+        <Inputs inputs="" />
       </View>
+
       <Text style={styles.senha}>Senha</Text>
+
       <View style={styles.inputContainerSenha}>
-        <TextInput style={styles.inputSenha}></TextInput>
-        <TouchableOpacity style={styles.botaoEntrar}>
-          <Text style={styles.textoBotaoEntrar}>Entrar</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.botaoCadastrese}>
-          <Text style={styles.textoBotaoCadastrese}>Cadastre-se</Text>
-        </TouchableOpacity>
+
+        <Inputs inputs="" />
+
+        <BotaoAmarelo BotaoAmarelo="Entrar" />
+
+        <BotaoMarrom BotaoMarrom="Cadastre-se" />
+
       </View>
 
       <StatusBar style="auto" />
