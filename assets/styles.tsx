@@ -6,19 +6,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-start",
   },
-  imgLogo: {
+  imgLogoFundo: {
     width: 410,
-    height: 400,
+    height: 420,
     borderBottomLeftRadius: 70,
     borderBottomRightRadius: 70,
     borderColor: "#e8c986",
     borderWidth: 5,
+    top: -20,
   },
-  tituloLogin: {
-    fontSize: 30,
-    fontWeight: "bold",
-    color: "#2e1504",
-    marginTop: 10,
+  imgLogo: {
+    width: 350,
+    height: 350,
+    marginTop: -700,
   },
   nome: {
     fontSize: 15,
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 10,
+    top: 5,
   },
   inputNome: {
     flex: 1,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 20,
+    top: 5,
   },
     inputEmail: {
         flex: 1,
@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
         marginTop: 20,
         fontWeight: 400,
         paddingRight: 255,
-        top: 8,
     },
     inputContainerSenha: {
     width: 300,
@@ -84,7 +83,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     justifyContent: "center",
-    top: 30,
+    top: 5,
   },
     inputSenha: {
         flex: 1,
@@ -98,7 +97,34 @@ const styles = StyleSheet.create({
         marginTop: 20,
         fontWeight: 400,
         paddingRight: 255,
-        top:16,
+    },
+    botaoEntrar: {
+        width: 300,
+        height: 45,
+        borderRadius: 6,
+        backgroundColor: "#e8c986",
+        justifyContent: "center",
+        alignItems: "center",
+        top: 85,
+    },
+    textoBotaoEntrar: {
+        fontSize: 20,
+        color: "white",
+        fontWeight:700,
+    },
+    botaoCadastrese: {
+        width: 300,
+        height: 45,
+        borderRadius: 6,
+        backgroundColor: "#411d06",
+        justifyContent: "center",
+        alignItems: "center",
+        top: 109,
+    },
+    textoBotaoCadastrese: {
+        fontSize: 20,
+        color: "white",
+        fontWeight:700,
     },
     
 });
