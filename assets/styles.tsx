@@ -88,10 +88,12 @@ const styles = StyleSheet.create({
     fontWeight: 700,
   },
   inputGeralContainer: {
+    alignItems: 'center',
     marginTop: 55,
   },
   
   botaoContainer: {
+    alignItems: 'center',
   gap: 10,
   top: 25,
   },

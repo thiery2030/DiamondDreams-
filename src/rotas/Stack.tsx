@@ -4,6 +4,8 @@ import { createNativeStackNavigator, NativeStackNavigationProp } from "@react-na
 import { useState } from "react";
 import { Login } from "../telas/Login";
 import { HomeScreen } from "../telas/HomeScreen";
+import { onAuthStateChanged } from "firebase/auth";
+import { autenticacao } from "../FirebaseConexao";
 
 
 export type stackProp = NativeStackNavigationProp<StackTipos>
@@ -12,11 +14,19 @@ const stackNav = createNativeStackNavigator<StackTipos>()
 
 export const Stack: React.FC = () => {
 
+    onAuthStateChanged(autenticacao, (user) => {
+        if (user){
+            setVerify(1);
+        }else{
+            setVerify(0);
+        }
+    })
+
     const [verifyUser, setVerify] = useState(0)
 
     return (
 
-        <NavigationContainer children={
+        <NavigationContainer>
             <stackNav.Navigator  screenOptions={{ headerShown: false }}>
                 {verifyUser == 0 ? (
 
@@ -26,12 +36,11 @@ export const Stack: React.FC = () => {
                     <stackNav.Screen name="Home" component={HomeScreen} />
 
                 }
-
             </stackNav.Navigator>
 
-        }
+        </NavigationContainer>
 
-        />
+        
 
     )
 }

@@ -9,7 +9,7 @@ interface BotaoMarrom {
 export const BotaoMarrom: React.FC <BotaoMarrom> = (props) => {
     return (
 
-        <TouchableOpacity style={styles.botaoCadastrese}>
+        <TouchableOpacity style={styles.botaoCadastrese} onPress={props.Validacao}>
             <Text style={styles.textoBotaoCadastrese}>{props.BotaoMarrom}</Text>
         </TouchableOpacity>
     )
