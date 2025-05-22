@@ -3,8 +3,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fdfaf3",
-    alignItems: "center",
-    justifyContent: "flex-start",
+    
   },
   imgLogoFundo: {
     width: 410,
@@ -32,20 +31,8 @@ const styles = StyleSheet.create({
     fontWeight: 400,
     paddingRight: 255,
   },
-  inputContainerNome: {
-    width: 300,
-    height: 50,
-    borderRadius: 5,
-    backgroundColor: "white",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
-    elevation: 1,
-    justifyContent: "center",
-  },
 
-  inputContainerEmail: {
+  inputContainer: {
     width: 300,
     height: 50,
     borderRadius: 5,
@@ -65,18 +52,7 @@ const styles = StyleSheet.create({
     fontWeight: 400,
     paddingRight: 255,
   },
-  inputContainerSenha: {
-    width: 300,
-    height: 50,
-    borderRadius: 5,
-    backgroundColor: "white",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
-    elevation: 1,
-    justifyContent: "center",
-  },
+
   senha: {
     fontSize: 15,
     color: "#2e1504",
@@ -112,9 +88,9 @@ const styles = StyleSheet.create({
     fontWeight: 700,
   },
   inputGeralContainer: {
-    alignItems: "center",
     marginTop: 55,
   },
+  
   botaoContainer: {
   gap: 10,
   top: 25,

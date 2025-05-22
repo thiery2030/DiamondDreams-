@@ -3,14 +3,16 @@ import { TextInput, Text } from "react-native";
 
 interface Inputs {
     inputs: string
+    inputInfos?: (param: string) => void,
+    inputValor?: string
 }
 
 
-export const Inputs: React.FC <Inputs> = (props) => {
+export const Inputs: React.FC<Inputs> = (props) => {
     return (
         <>
 
-            <TextInput style={styles.inputs}>{props.inputs}</TextInput>
+            <TextInput onChangeText={props.inputInfos} value={props.inputValor}>{props.inputs} </TextInput>
 
         </>
     )

@@ -3,6 +3,7 @@ import { Text, TouchableOpacity, View } from "react-native";
 
 interface BotaoMarrom {
     BotaoMarrom: string,
+    Validacao: () => void,
 }
 
 export const BotaoMarrom: React.FC <BotaoMarrom> = (props) => {
