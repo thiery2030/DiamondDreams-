@@ -85,11 +85,11 @@ export const Login: React.FC = () => {
 
         switch (error.code) {
           case "auth/invalid-email":
-            setErrorMessage('email falho')
+            setErrorMessage('E-mail incorreto')
             break;
           case "auth/invalid-credential":
             Alert.alert("Senha invalida")
-            setErrorMessage('email falho')
+            setErrorMessage('Senha incorreta')
           default:
             break;
         }
@@ -114,13 +114,14 @@ export const Login: React.FC = () => {
               <Text style={styles.email}>Email</Text>
               <View style={styles.inputContainer}>
                 <Inputs inputs="" inputValor={email} inputInfos={(Text) => setEmail(Text)} />
-                <Text>{errorMessage}</Text>
               </View>
+                <Text style={styles.erroMessage}>{errorMessage}</Text>
 
               <Text style={styles.senha}>Senha</Text>
               <View style={styles.inputContainer}>
                 <Inputs inputs="" inputValor={senha} inputInfos={(Text) => setSenha(Text)} />
               </View>
+                <Text style={styles.erroMessage}>{errorMessage}</Text>
             </View>
 
             <View style={styles.botaoContainer}>

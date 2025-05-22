@@ -87,6 +87,12 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: 700,
   },
+
+  erroMessage:{
+    color: 'red',
+    margin: 5,
+  },
+
   inputGeralContainer: {
     alignItems: 'center',
     marginTop: 55,
