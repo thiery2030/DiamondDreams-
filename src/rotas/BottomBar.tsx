@@ -13,8 +13,12 @@ export const Menu: React.FC = () => {
     return(
         <bottomBar.Navigator screenOptions={{headerShown: false}}>
 
-            <bottomBar.Screen name="HomeBottom" component={Home} options={{
-                title: 'Inicio'
+            <bottomBar.Screen  name="HomeBottom" component={Home} options={{
+                title: 'Inicio' 
+                
+                , tabBarIcon: ({color}) => (
+                    <Icon name="home" size={30} color={"black"}/>
+                )
             }}
                 
             />
