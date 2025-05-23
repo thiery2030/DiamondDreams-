@@ -9,13 +9,10 @@ interface BotaoAmarelo{
 
 export const BotaoAmarelo: React.FC <BotaoAmarelo> = (props) => {
     return(
-
         <>
-        
-        <TouchableOpacity style={styles.botaoEntrar}>
-          <Text style={styles.textoBotaoEntrar} onPress={props.AutenticarUsuario}>{props.BotaoAmarelo}</Text>
+        <TouchableOpacity style={styles.botaoEntrar} onPress={props.AutenticarUsuario}>
+          <Text style={styles.textoBotaoEntrar}>{props.BotaoAmarelo}</Text>
         </TouchableOpacity>
-
         </>
     )
 }
