@@ -3,7 +3,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fdfaf3",
-    
   },
   imgLogoFundo: {
     width: 410,
@@ -80,7 +79,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#411d06",
     justifyContent: "center",
     alignItems: "center",
-  
   },
   textoBotaoCadastrese: {
     fontSize: 20,
@@ -88,24 +86,75 @@ const styles = StyleSheet.create({
     fontWeight: 700,
   },
 
-  erroMessage:{
-    color: 'red',
+  erroMessage: {
+    color: "red",
     margin: 5,
   },
 
   inputGeralContainer: {
-    alignItems: 'center',
+    alignItems: "center",
     marginTop: 55,
   },
-  
+
   botaoContainer: {
-    alignItems: 'center',
-  gap: 10,
-  top: 25,
+    alignItems: "center",
+    gap: 10,
+    top: 25,
   },
 
   base: {
     alignItems: "center",
+  },
+
+  logoContainerInicio: {
+    alignItems: "center",
+  },
+  imgLogoinicio: {
+    width: 410,
+    height: 370,
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    borderColor: "#e8c986",
+    borderWidth: 3,
+  },
+  imgDDInicio: {
+    width: 350,
+    height: 350,
+    position: "absolute",
+    top: 25,
+  },
+  containerLoja: {
+    alignItems: "center",
+    gap: 10,
+    marginTop: 20,
+  },
+  imgLoja1: {
+    width: 330,
+    height: 130,
+    borderColor: "#411d06",
+    borderWidth: 1,
+  },
+  imgLoja2: {
+    width: 330,
+    height: 130,
+    borderColor: "#411d06",
+    borderWidth: 1,
+  },
+  textoContainer: {
+    alignItems: "center", 
+     textAlign: "center",
+     width: 340,
+  },
+  titulo: {
+    fontSize: 29,
+    color: "#411d06",
+    fontWeight: 400,
+    marginTop: 10,
+  },
+  contexto: {
+    fontSize: 16,
+    color: "#411d06",
+    fontWeight: 400,
   },
 });
 export default styles;
