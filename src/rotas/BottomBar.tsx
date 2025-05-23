@@ -4,6 +4,8 @@ import { BottomTabBar, BottomTabNavigationProp, createBottomTabNavigator, } from
 import { Home } from "../telas/Home";
 import Icon from "@react-native-vector-icons/ionicons";
 import { Image, Text, View } from "react-native";
+import { Atendimento } from "../telas/Atendimento";
+import { Perfil } from "../telas/Perfil";
 
 export type bottomBar = BottomTabNavigationProp<bottomTipos>
 
@@ -18,6 +20,24 @@ export const Menu: React.FC = () => {
                 
                 , tabBarIcon: ({color}) => (
                     <Icon name="home" size={30} color={"black"}/>
+                )
+            }} 
+            />
+
+            <bottomBar.Screen  name="Atendimento" component={Atendimento} options={{
+                title: 'Atendimento' 
+                
+                , tabBarIcon: ({color}) => (
+                    <Icon name="chatbubble-ellipses-outline" size={30} color={"black"}/>
+                )
+            }} 
+            />
+
+            <bottomBar.Screen  name="Perfil" component={Perfil} options={{
+                title: 'Perfil' 
+                
+                , tabBarIcon: ({color}) => (
+                    <Icon name="person-circle-outline" size={30} color={"black"}/>
                 )
             }} 
             />

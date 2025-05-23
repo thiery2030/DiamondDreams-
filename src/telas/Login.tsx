@@ -100,7 +100,7 @@ export const Login: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.base}>
+      <View style={{alignItems: 'center'}}>
 
         {validacao == 0 ? (
           <View style={{ alignItems: 'center' }}>
@@ -109,16 +109,16 @@ export const Login: React.FC = () => {
               <Image style={styles.imgLogo} source={require("../../assets/img/logo-DD.png")} />
             </View>
 
-            <View style={styles.inputGeralContainer}>
+            <View style={styles.inputGeralContainerPerfil}>
 
-              <Text style={styles.email}>Email</Text>
-              <View style={styles.inputContainer}>
+              <Text style={styles.InfoInput}>Email</Text>
+              <View>
                 <Inputs inputs="" inputValor={email} inputInfos={(Text) => setEmail(Text)} />
               </View>
                 <Text style={styles.erroMessage}>{errorMessage}</Text>
 
-              <Text style={styles.senha}>Senha</Text>
-              <View style={styles.inputContainer}>
+              <Text style={styles.InfoInput}>Senha</Text>
+              <View>
                 <Inputs inputs="" inputValor={senha} inputInfos={(Text) => setSenha(Text)} />
               </View>
                 <Text style={styles.erroMessage}>{errorMessage}</Text>
@@ -135,23 +135,23 @@ export const Login: React.FC = () => {
 
           <View>
             <View style={styles.logoContainer}>
-              <Image style={styles.imgLogoFundo} source={require("../../assets/img/imagem-login.png")} />
+              <Image style={styles.imgLogoFundo} source={require("../../assets/img/imagem-cadastro.png")} />
               <Image style={styles.imgLogo} source={require("../../assets/img/logo-DD.png")} />
             </View>
 
             <View style={styles.inputGeralContainer}>
-              <Text style={styles.nome}>Nome</Text>
-              <View style={styles.inputContainer}>
+              <Text style={styles.InfoInput}>Nome</Text>
+              <View>
                 <Inputs inputs="" inputValor={nome} inputInfos={(Text) => setNome(Text)} />
               </View>
 
-              <Text style={styles.email}>Email</Text>
-              <View style={styles.inputContainer}>
+              <Text style={styles.InfoInput}>Email</Text>
+              <View>
                 <Inputs inputs="" inputValor={email} inputInfos={(Text) => setEmail(Text)} />
               </View>
 
-              <Text style={styles.senha}>Senha</Text>
-              <View style={styles.inputContainer}>
+              <Text style={styles.InfoInput}>Senha</Text>
+              <View>
                 <Inputs inputs="" inputValor={senha} inputInfos={(Text) => setSenha(Text)} />
               </View>
             </View>

@@ -12,7 +12,7 @@ export const Inputs: React.FC<Inputs> = (props) => {
     return (
         <>
 
-            <TextInput onChangeText={props.inputInfos} value={props.inputValor}></TextInput>
+            <TextInput style={styles.inputs} onChangeText={props.inputInfos} value={props.inputValor}></TextInput>
 
         </>
     )

@@ -18,7 +18,8 @@
     "expo-status-bar": "~2.2.3",
     "firebase": "^11.7.3",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-image-picker": "^8.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

@@ -3,7 +3,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fdfaf3",
-    
+
   },
   imgLogoFundo: {
     width: 410,
@@ -15,24 +15,24 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: -10, //para esconder a cor da borda
   },
+
   imgLogo: {
     width: 350,
     height: 350,
   },
+
+  imgLogoGeral: {
+    width: 250,
+    height: 250,
+  },
+
   logoContainer: {
     alignItems: "center",
     justifyContent: "center",
     position: "relative",
   },
-  nome: {
-    fontSize: 15,
-    color: "#2e1504",
-    marginTop: 20,
-    fontWeight: 400,
-    paddingRight: 255,
-  },
 
-  inputContainer: {
+  inputs: {
     width: 300,
     height: 50,
     borderRadius: 5,
@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 2,
     elevation: 1,
-    justifyContent: "center",
   },
 
-  email: {
+
+  InfoInput: {
     fontSize: 15,
     color: "#2e1504",
     marginTop: 20,
@@ -53,13 +53,6 @@ const styles = StyleSheet.create({
     paddingRight: 255,
   },
 
-  senha: {
-    fontSize: 15,
-    color: "#2e1504",
-    marginTop: 20,
-    fontWeight: 400,
-    paddingRight: 255,
-  },
   botaoEntrar: {
     width: 300,
     height: 45,
@@ -68,11 +61,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  textoBotaoEntrar: {
-    fontSize: 20,
-    color: "white",
-    fontWeight: 700,
-  },
+
   botaoCadastrese: {
     width: 300,
     height: 45,
@@ -80,15 +69,22 @@ const styles = StyleSheet.create({
     backgroundColor: "#411d06",
     justifyContent: "center",
     alignItems: "center",
-  
+
   },
+
+  textoBotaoEntrar: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: 700,
+  },
+
   textoBotaoCadastrese: {
     fontSize: 20,
     color: "white",
     fontWeight: 700,
   },
 
-  erroMessage:{
+  erroMessage: {
     color: 'red',
     margin: 5,
   },
@@ -98,14 +94,16 @@ const styles = StyleSheet.create({
     marginTop: 55,
   },
   
-  botaoContainer: {
+  inputGeralContainerPerfil: {
     alignItems: 'center',
-  gap: 10,
-  top: 25,
+
   },
 
-  base: {
-    alignItems: "center",
+  botaoContainer: {
+    alignItems: 'center',
+    gap: 10,
+    top: 25,
   },
+
 });
 export default styles;

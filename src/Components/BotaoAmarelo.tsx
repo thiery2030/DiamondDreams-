@@ -11,6 +11,7 @@ export const BotaoAmarelo: React.FC <BotaoAmarelo> = (props) => {
     return(
         <>
         <TouchableOpacity style={styles.botaoEntrar} onPress={props.AutenticarUsuario}>
+        
           <Text style={styles.textoBotaoEntrar}>{props.BotaoAmarelo}</Text>
         </TouchableOpacity>
         </>
