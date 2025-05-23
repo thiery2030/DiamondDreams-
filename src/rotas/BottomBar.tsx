@@ -13,16 +13,18 @@ const bottomBar = createBottomTabNavigator<bottomTipos>()
 
 export const Menu: React.FC = () => {
     return(
-        <bottomBar.Navigator screenOptions={{headerShown: false}}>
+        <bottomBar.Navigator screenOptions={{headerShown: false, tabBarLabelStyle: { color: 'black' }}} >
 
-            <bottomBar.Screen  name="HomeBottom" component={Home} options={{
+            <bottomBar.Screen  name="HomeBottom" component={Home}options={{
                 title: 'Inicio' 
-                
-                , tabBarIcon: ({color}) => (
-                    <Icon name="home" size={30} color={"black"}/>
+                , tabBarIcon: () => (
+                    <Icon name="home" size={30} color={"black"} />
+                    
                 )
-            }} 
-            />
+            }}/>
+          
+
+          
 
             <bottomBar.Screen  name="Atendimento" component={Atendimento} options={{
                 title: 'Atendimento' 
