@@ -20,8 +20,8 @@ export const Home: React.FC = () => {
         </View>
         
         <View style={styles.containerLoja}>
-          <Image style={styles.imgLoja1} source={require("../../assets/img/imgLoja1.jpg")} />
-          <Image style={styles.imgLoja2} source={require("../../assets/img/imgLoja2.jpg")} />
+          <Image style={styles.imgLoja} source={require("../../assets/img/imgLoja1.jpg")} />
+          <Image style={styles.imgLoja} source={require("../../assets/img/imgLoja2.jpg")} />
         </View>
         <View style={styles.textoContainer}> 
         <Text style={styles.titulo}>NOSSA COLEÇÃO</Text>

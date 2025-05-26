@@ -3,10 +3,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fdfaf3",
-<<<<<<< HEAD
-
-=======
->>>>>>> d1f3675b97713e0aaab3f8d656460998616906a9
   },
   imgLogoFundo: {
     width: 410,
@@ -47,7 +43,6 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
 
-
   InfoInput: {
     fontSize: 15,
     color: "#2e1504",
@@ -72,10 +67,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#411d06",
     justifyContent: "center",
     alignItems: "center",
-<<<<<<< HEAD
-
-=======
->>>>>>> d1f3675b97713e0aaab3f8d656460998616906a9
   },
 
   textoBotaoEntrar: {
@@ -91,11 +82,7 @@ const styles = StyleSheet.create({
   },
 
   erroMessage: {
-<<<<<<< HEAD
-    color: 'red',
-=======
     color: "red",
->>>>>>> d1f3675b97713e0aaab3f8d656460998616906a9
     margin: 5,
   },
 
@@ -103,78 +90,35 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 55,
   },
-<<<<<<< HEAD
-  
-  inputGeralContainerPerfil: {
-    alignItems: 'center',
 
-=======
+  inputGeralContainerPerfil: {
+    alignItems: "center",
+  },
 
   botaoContainer: {
     alignItems: "center",
     gap: 10,
     top: 25,
->>>>>>> d1f3675b97713e0aaab3f8d656460998616906a9
   },
-
-  botaoContainer: {
-    alignItems: 'center',
-    gap: 10,
-    top: 25,
+  imgLoja: {
+    height: 100,
+    width:360
   },
-
-<<<<<<< HEAD
-=======
   logoContainerInicio: {
     alignItems: "center",
   },
   imgLogoinicio: {
+    height: 400,
     width: 410,
-    height: 370,
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
     borderColor: "#e8c986",
-    borderWidth: 3,
+    borderWidth: 2,
   },
-  imgDDInicio: {
-    width: 350,
-    height: 350,
-    position: "absolute",
-    top: 25,
-  },
-  containerLoja: {
-    alignItems: "center",
-    gap: 10,
-    marginTop: 20,
-  },
-  imgLoja1: {
-    width: 330,
-    height: 130,
-    borderColor: "#411d06",
-    borderWidth: 1,
-  },
-  imgLoja2: {
-    width: 330,
-    height: 130,
-    borderColor: "#411d06",
-    borderWidth: 1,
-  },
-  textoContainer: {
-    alignItems: "center", 
-     textAlign: "center",
-     width: 340,
-  },
-  titulo: {
-    fontSize: 29,
-    color: "#411d06",
-    fontWeight: 400,
-    marginTop: 10,
-  },
-  contexto: {
-    fontSize: 16,
-    color: "#411d06",
-    fontWeight: 400,
-  },
->>>>>>> d1f3675b97713e0aaab3f8d656460998616906a9
+   imgDDInicio:{
+    height:370,
+    width:370,
+    position:'absolute'
+   },
 });
 export default styles;
