@@ -100,25 +100,112 @@ const styles = StyleSheet.create({
     gap: 10,
     top: 25,
   },
-  imgLoja: {
-    height: 100,
-    width:360
+  base: {
+    alignItems: "center",
   },
   logoContainerInicio: {
     alignItems: "center",
   },
   imgLogoinicio: {
-    height: 400,
     width: 410,
+    height: 370,
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
     borderColor: "#e8c986",
-    borderWidth: 2,
+    borderWidth: 3,
   },
-   imgDDInicio:{
-    height:370,
-    width:370,
-    position:'absolute'
-   },
+  imgDDInicio: {
+    width: 350,
+    height: 350,
+    position: "absolute",
+    top: 25,
+  },
+  containerLoja: {
+    alignItems: "center",
+    gap: 10,
+    marginTop: 20,
+  },
+  imgLoja: {
+    width: 330,
+    height: 130,
+    borderColor: "#411d06",
+    borderWidth: 1,
+  },
+  textoContainer: {
+    alignItems: "center",
+    textAlign: "center",
+    width: 340,
+  },
+  titulo: {
+    fontSize: 29,
+    color: "#411d06",
+    fontWeight: 400,
+    marginTop: 10,
+  },
+  contexto: {
+    fontSize: 16,
+    color: "#411d06",
+    fontWeight: 400,
+    gap: 100,
+  },
+  mulheresContainer: {
+    alignItems: "center",
+    marginTop: 20,
+
+  },
+  imgMulheres: {
+    height: 320,
+    resizeMode: "cover",
+  },
+  textMulheres: {
+    position: "absolute",
+    bottom: 10,
+    left: 130,
+    color: "white",
+    fontSize: 30,
+    fontWeight: "800",
+  },
+
+  produtosContainerBrinco: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginTop: 20,
+  },
+
+  produtosContainerAnel: {
+    alignItems: "center",
+  },
+  aneisMulher: {
+    width: 190,
+    height: 210,
+    borderRadius: 7,
+  },
+  textAneis: {
+    position: "absolute",
+    bottom: 10,
+    left: 10,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "700",
+  },
+
+  produtosContainerColar: {
+    alignItems: "center",
+  },
+  colarMulher: {
+    width: 190,
+    height: 210,
+    borderRadius: 7,
+  },
+  textColar: {
+    position: "absolute",
+    bottom: 10,
+    left: 10,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "700",
+  },
+
 });
 export default styles;

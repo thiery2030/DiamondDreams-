@@ -22,10 +22,6 @@ export const Menu: React.FC = () => {
                     
                 )
             }}/>
-          
-
-          
-
             <bottomBar.Screen  name="Atendimento" component={Atendimento} options={{
                 title: 'Atendimento' 
                 
