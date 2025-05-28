@@ -36,16 +36,77 @@ export const Home: React.FC = () => {
             <Image style={styles.imgMulheres} source={require("../../assets/img/bruna-biancardi.png")} />
             <Text style={styles.textMulheres}>Mulheres</Text>
           </View>
-          <View style={styles.produtosContainerBrinco}> 
-          <View style={styles.produtosContainerAnel}>
-            <Image style={styles.aneisMulher} source={require("../../assets/img/aneis-feminino.png")} />
-            <Text style={styles.textAneis}>Anéis</Text>
-          </View>
-          <View style={styles.produtosContainerColar}>
-            <Image style={styles.colarMulher} source={require("../../assets/img/colar-feminino.png")} />
-            <Text style={styles.textColar}>Colares</Text>
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/aneis-feminino.png")} />
+              <Text style={styles.textAneis}>Anéis</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/colar-feminino.png")} />
+              <Text style={styles.textColar}>Colares</Text>
             </View>
           </View>
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/pulseira-feminino.png")} />
+              <Text style={styles.textAneis}>Pulseiras</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/relogio-feminino.png")} />
+              <Text style={styles.textColar}>Relógios</Text>
+            </View>
+          </View>
+
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/brinco-feminino.png")} />
+              <Text style={styles.textAneis}>Brincos</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/alianca-feminino.png")} />
+              <Text style={styles.textColar}>Aliança</Text>
+            </View>
+          </View>
+
+
+           {/*Homens */}
+           <View style={styles.mulheresContainer}>
+            <Image style={styles.imgMulheres} source={require("../../assets/img/neymar-principal (1).png")} />
+            <Text style={styles.textHomens}>Homens</Text>
+          </View>
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/anel-masculino.png")} />
+              <Text style={styles.textAneis}>Anéis</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/colares.jpg")} />
+              <Text style={styles.textColar}>Colares</Text>
+            </View>
+          </View>
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/pulsiera-masculino.png")} />
+              <Text style={styles.textAneis}>Pulseiras</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/relogio-masculino.png")} />
+              <Text style={styles.textColar}>Relógios</Text>
+            </View>
+          </View>
+
+          <View style={styles.produtosContainerBrinco}>
+            <View style={styles.produtosContainerAnel}>
+              <Image style={styles.aneisMulher} source={require("../../assets/img/brincoM.webp")} />
+              <Text style={styles.textAneis}>Brincos</Text>
+            </View>
+            <View style={styles.produtosContainerColar}>
+              <Image style={styles.colarMulher} source={require("../../assets/img/alianca-masculino.png")} />
+              <Text style={styles.textColar}>Aliança</Text>
+            </View>
+          </View>
+          
+          
         </View>
       </View>
     </ScrollView>

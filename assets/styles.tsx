@@ -207,5 +207,27 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
 
+    textHomens: {
+    position: "absolute",
+    bottom: 10,
+    left: 35,
+    color: "white",
+    fontSize: 30,
+    fontWeight: "800",
+  },
+ containerCarrinho: {
+ alignSelf: "flex-end",
+  paddingRight: 20,
+ },
+  carrinhoCard: {
+      width: 220,
+      height: 150,
+      borderRadius: 5,
+      backgroundColor: "white",
+      
+      
+    },
+    
+
 });
 export default styles;
