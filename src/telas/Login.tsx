@@ -109,7 +109,7 @@ export const Login: React.FC = () => {
               <Image style={styles.imgLogo} source={require("../../assets/img/logo-DD.png")} />
             </View>
 
-            <View style={styles.inputGeralContainerPerfil}>
+            <View style={styles.inputGeralContainer}>
 
               <Text style={styles.InfoInput}>Email</Text>
               <View>
