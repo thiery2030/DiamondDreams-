@@ -70,7 +70,6 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
 
-
   InfoInput: {
     fontSize: 15,
     color: "#2e1504",
@@ -110,7 +109,11 @@ const styles = StyleSheet.create({
   },
 
   erroMessage: {
+<<<<<<< HEAD
     color: 'red',
+=======
+    color: "red",
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
     margin: 5,
   },
 
@@ -118,17 +121,154 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 55,
   },
+<<<<<<< HEAD
 
   inputGeralContainerPerfil: {
     alignItems: 'center',
 
+=======
+
+  inputGeralContainerPerfil: {
+    alignItems: "center",
   },
 
   botaoContainer: {
-    alignItems: 'center',
+    alignItems: "center",
     gap: 10,
     top: 25,
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
   },
+  base: {
+    alignItems: "center",
+  },
+<<<<<<< HEAD
+=======
+  logoContainerInicio: {
+    alignItems: "center",
+  },
+  imgLogoinicio: {
+    width: 410,
+    height: 370,
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    borderColor: "#e8c986",
+    borderWidth: 3,
+  },
+  imgDDInicio: {
+    width: 350,
+    height: 350,
+    position: "absolute",
+    top: 25,
+  },
+  containerLoja: {
+    alignItems: "center",
+    gap: 10,
+    marginTop: 20,
+  },
+  imgLoja: {
+    width: 330,
+    height: 130,
+    borderColor: "#411d06",
+    borderWidth: 1,
+  },
+  textoContainer: {
+    alignItems: "center",
+    textAlign: "center",
+    width: 340,
+  },
+  titulo: {
+    fontSize: 29,
+    color: "#411d06",
+    fontWeight: 400,
+    marginTop: 10,
+  },
+  contexto: {
+    fontSize: 16,
+    color: "#411d06",
+    fontWeight: 400,
+    gap: 100,
+  },
+  mulheresContainer: {
+    alignItems: "center",
+    marginTop: 20,
+
+  },
+  imgMulheres: {
+    height: 320,
+    resizeMode: "cover",
+  },
+  textMulheres: {
+    position: "absolute",
+    bottom: 10,
+    left: 130,
+    color: "white",
+    fontSize: 30,
+    fontWeight: "800",
+  },
+
+  produtosContainerBrinco: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginTop: 20,
+  },
+
+  produtosContainerAnel: {
+    alignItems: "center",
+  },
+  aneisMulher: {
+    width: 190,
+    height: 210,
+    borderRadius: 7,
+  },
+  textAneis: {
+    position: "absolute",
+    bottom: 10,
+    left: 10,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "700",
+  },
+
+  produtosContainerColar: {
+    alignItems: "center",
+  },
+  colarMulher: {
+    width: 190,
+    height: 210,
+    borderRadius: 7,
+  },
+  textColar: {
+    position: "absolute",
+    bottom: 10,
+    left: 10,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "700",
+  },
+
+    textHomens: {
+    position: "absolute",
+    bottom: 10,
+    left: 35,
+    color: "white",
+    fontSize: 30,
+    fontWeight: "800",
+  },
+ containerCarrinho: {
+ alignSelf: "flex-end",
+  paddingRight: 20,
+ },
+  carrinhoCard: {
+      width: 220,
+      height: 150,
+      borderRadius: 5,
+      backgroundColor: "white",
+      
+      
+    },
+    
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
 
 });
 export default styles;
