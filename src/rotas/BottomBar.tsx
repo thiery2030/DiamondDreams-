@@ -6,10 +6,9 @@ import Icon from "@react-native-vector-icons/ionicons";
 import { Image, Text, View } from "react-native";
 import { Atendimento } from "../telas/Atendimento";
 import { Perfil } from "../telas/Perfil";
-import { Carrinho } from "../telas/Carrinho";
+import { Produtos } from "../telas/Produtos";
 
 export type bottomBar = BottomTabNavigationProp<bottomTipos>;
-
 const bottomBar = createBottomTabNavigator<bottomTipos>();
 
 export const Menu: React.FC = () => {
@@ -23,15 +22,7 @@ export const Menu: React.FC = () => {
           tabBarIcon: () => <Icon name="home-outline" size={30} color={"black"} />,
         }}
       />
-      <bottomBar.Screen
-        name="Carrinho"
-        component={Carrinho}
-        options={{
-          title: "Carrinho",
-
-          tabBarIcon: ({ color }) => <Icon name="cart-outline" size={30} color={"black"} />,
-        }}
-      />
+      
       <bottomBar.Screen
         name="Atendimento"
         component={Atendimento}
@@ -47,6 +38,16 @@ export const Menu: React.FC = () => {
         component={Perfil}
         options={{
           title: "Perfil",
+
+          tabBarIcon: ({ color }) => <Icon name="person-circle-outline" size={30} color={"black"} />,
+        }}
+      />
+
+        <bottomBar.Screen
+        name="Produtos"
+        component={Produtos}
+        options={{
+          title: "Produtos",
 
           tabBarIcon: ({ color }) => <Icon name="person-circle-outline" size={30} color={"black"} />,
         }}
