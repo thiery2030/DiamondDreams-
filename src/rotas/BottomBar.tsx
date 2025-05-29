@@ -29,9 +29,21 @@ export const Menu: React.FC = () => {
         options={{
           title: "Atendimento",
 
+<<<<<<< HEAD
+          <bottomBar.Screen  name="Carrinho" component={Carrinho} options={{
+              title: 'Carrinho' 
+              
+              , tabBarIcon: ({color}) => (
+                  <Icon name="cart-outline" size={30} color={"black"}/>
+              )
+          }} 
+          />
+          
+=======
           tabBarIcon: ({ color }) => <Icon name="chatbubble-ellipses-outline" size={30} color={"black"} />,
         }}
       />
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
 
       <bottomBar.Screen
         name="Perfil"
@@ -39,6 +51,21 @@ export const Menu: React.FC = () => {
         options={{
           title: "Perfil",
 
+<<<<<<< HEAD
+            <bottomBar.Screen  name="Perfil" component={Perfil} options={{
+                title: 'Perfil' 
+                
+                , tabBarIcon: ({color}) => (
+                    <Icon name="person-circle-outline" size={30} color={"black"}/>
+                )
+            }} 
+            />
+
+
+        </bottomBar.Navigator>
+    )
+}
+=======
           tabBarIcon: ({ color }) => <Icon name="person-circle-outline" size={30} color={"black"} />,
         }}
       />
@@ -55,3 +82,4 @@ export const Menu: React.FC = () => {
     </bottomBar.Navigator>
   );
 };
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c

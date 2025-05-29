@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fdfaf3",
   },
+
   imgLogoFundo: {
     width: 410,
     height: 420,
@@ -23,6 +24,32 @@ const styles = StyleSheet.create({
   imgLogoGeral: {
     width: 250,
     height: 250,
+  },
+
+  imgProdutosCarrinho: {
+
+  },
+
+  infoProdutoCarrinho: {
+    flexDirection: 'row',
+    width: 370,
+    height: 158,
+    borderRadius: 5,
+    backgroundColor: '#FDFAF3',
+    right: 23,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 1,
+
+
+  },
+
+  btnCarrinho: {
+    width: 10,
+    height: 30,
+    backgroundColor: 'red'
   },
 
   logoContainer: {
@@ -82,7 +109,11 @@ const styles = StyleSheet.create({
   },
 
   erroMessage: {
+<<<<<<< HEAD
+    color: 'red',
+=======
     color: "red",
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
     margin: 5,
   },
 
@@ -90,6 +121,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 55,
   },
+<<<<<<< HEAD
+
+  inputGeralContainerPerfil: {
+    alignItems: 'center',
+
+=======
 
   inputGeralContainerPerfil: {
     alignItems: "center",
@@ -99,10 +136,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 10,
     top: 25,
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
   },
   base: {
     alignItems: "center",
   },
+<<<<<<< HEAD
+=======
   logoContainerInicio: {
     alignItems: "center",
   },
@@ -244,6 +284,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 7,
      backgroundColor: "white",
     
+<<<<<<< HEAD
   },
   cardItens: {
     width: 180,
@@ -281,5 +322,9 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
   
+=======
+>>>>>>> 0b3dc6669edd89faf08841401949e9a49bddf03c
+
+>>>>>>> c1c11a0831d16d720eaad75d1a6bf1c8645d2cd4
 });
 export default styles;
